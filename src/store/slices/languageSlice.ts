@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AllLanguages } from '../../assets/i18n/AllLangauges';
 
 const initialState = {
-  name: AllLanguages.pl,
+  name: AllLanguages[0].name,
 };
 
 export const LanguageSlice = createSlice({
