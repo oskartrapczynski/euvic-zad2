@@ -14,7 +14,7 @@ const rootElement = document.getElementById('root');
 render(
   <StrictMode>
     {/* <Provider store={store}> */}
-    <BrowserRouter>
+    <BrowserRouter basename="/euvic-zad2">
       <App />
     </BrowserRouter>
     {/* </Provider> */}
