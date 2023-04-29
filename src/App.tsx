@@ -5,6 +5,7 @@ import Views from './pages/Views';
 
 import './App.css';
 import Menu from './components/Menu';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/main" element={<Main />} />
         <Route path="/views" element={<Views />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
   );
